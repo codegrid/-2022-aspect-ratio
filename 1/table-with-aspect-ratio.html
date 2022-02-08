@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aspect-ratioを使った、比率を保つtable</title>
+<style>
+table {
+  aspect-ratio: 1 / 1;
+  max-width: 100%;
+  height: auto;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+th, td {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<figure>
+  <figcaption>サンプルデータ</figcaption>
+  <table>
+    <thead>
+      <tr>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+      </tr>
+      <tr>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+      </tr>
+      <tr>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+        <td>table data</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+
+</body>
+</html>
